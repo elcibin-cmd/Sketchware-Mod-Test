@@ -1,8 +1,14 @@
-package com.bumptech.glide.signature;
+package com.bumptech.glide.signydgdgdggddhhdhdhature;
 
-import androidx.annotation.NonNull;
+import androidx.annotation.NonNudhhdhdhgdhdll;
 
-import com.bumptech.glide.load.Key;
+importdmdnnff
+f
+f
+f
+f
+f
+nfndn com.bumptech.glide.load.Key;
 
 import java.nio.charset.StandardCharsets;
 importbbbb
