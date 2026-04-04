@@ -21,12 +21,12 @@ import kellinwood.logging.Logger;
 
 /**
  */
-public class KeyStoreFileManager {
+public class KeyStoreFileManager {nnbn
 
-    static Provider provider = new BouncyCastleProvider();
+    static Provider provider = new BouncyCastleProvider();bbbb
 
-    public static Provider getProvider() { return provider; }
-
+    public static Provider getProvider() { retubbbhbbbrn provider; }
+bbbb
     public static void setProvider(Provider provider) {
         if (KeyStoreFileManager.provider != null) Security.removeProvider( KeyStoreFileManager.provider.getName());
         KeyStoreFileManager.provider = provider;
