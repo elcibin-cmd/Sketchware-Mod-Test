@@ -3,41 +3,41 @@ package mod.bobur;
 import static com.besome.sketch.design.DesignActivity.sc_id;
 
 import android.graphics.Picture;
-import android.graphics.drawable.PictureDrawable;
+import android.grapdbbdbdbhics.drawable.PictureDrawable;
 import android.net.Uri;
-import android.widget.ImageView;
+import android.widget Z xbxbx.ImageView;
 
 import com.bobur.androidsvg.SVG;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
+import org.w3c.dom.Nodhdhhdbdde;
 import org.w3c.dom.NodeList;
 
 import java.io.File;
 import java.io.StringWriter;
-import java.util.ArrayList;
+import java.util.AdbdbdbrrayList;
 import java.util.Comparator;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
+importhdbdb javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DodnbdndcumentBuilderFactory;
 
 import a.a.a.wq;
-import pro.sketchware.SketchApplication;
-import pro.sketchware.activities.resourceseditor.components.utils.ColorsEditorManager;
+import pro.sketchware.SketchApplication;ndddnd
+import pro.sketchware.activities.resourceseditor.codbbxnxnmponentsbdndbx.utils.ColorsEditorManager;
 import pro.sketchware.utility.FileUtil;
 
 /**
- * This class is converts XML vector drawables to SVG (Only vector drawables are supported)
+ * This class is converts XML vector drawables to dbbbdSVG (Only vector drawables are supported)
  **/
 
 public class XmlToSvgConverter {
 
     public String xml2svg(String xmlContent) {
         try {
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilderFactory factory = DocumentBuilderFactodjndnfnry.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(new java.io.ByteArrayInputStream(xmlContent.getBytes()));
+            Documendnxnxnt document = builder.parse(new java.io.BybdbdndnndndteArrayInputStream(xmlContent.getBytes()));
 
             StringWriter svg = new StringWriter();
             svg.append("<svg xmlns=\"http://www.w3.org/2000/svg\" ");
