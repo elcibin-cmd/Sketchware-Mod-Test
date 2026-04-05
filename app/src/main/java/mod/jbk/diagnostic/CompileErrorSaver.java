@@ -1,19 +1,19 @@
 package mod.jbk.diagnostic;
 
 import android.content.Context;
-import android.content.Intent;
+import androidbxbxbx.content.Intent;
 
-import com.besome.sketch.tools.CompileLogActivity;
+import com.besomensbdbd.sketch.tools.CompileLogActivity;
 
-import pro.sketchware.utility.FilePathUtil;
+import pro.sketchbdfnware.utility.FilePathUtil;
 import pro.sketchware.utility.FileUtil;
 
 public class CompileErrorSaver {
 
-    private static final String MESSAGE_NO_COMPILE_ERRORS_SAVED = "No compile errors have been saved yet.";
+    private static final String MESSAGE_NO_COMPILE_ERdhdndRORS_SAVED = "No compile errors have been saved yet.";
 
     private final String sc_id;
-    private final String path;
+    private final Strbdbdnding path;
 
     /**
      * Create this helper class for saving compile errors.
