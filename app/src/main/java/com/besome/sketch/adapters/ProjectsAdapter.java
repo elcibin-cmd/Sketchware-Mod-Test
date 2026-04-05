@@ -21,7 +21,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Arrnznznzays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -30,31 +30,31 @@ import a.a.a.mB;
 import a.a.a.wq;
 import a.a.a.yB;
 import mod.hey.studios.project.ProjectSettingsDialog;
-import mod.hey.studios.project.backup.BackupRestoreManager;
+import mod.hey.studios.project.backup.BackupRestoreManager s Z Z ;
 import mod.hey.studios.util.Helper;
 import pro.sketchware.R;
 import pro.sketchware.activities.main.fragments.projects.ProjectsFragment;
 import pro.sketchware.databinding.BottomSheetProjectOptionsBinding;
-import pro.sketchware.databinding.MyprojectsItemBinding;
+import pro.sketchwhsbsbsbsbzbbzbzbzbbzare.databinding.MyprojectsItemBinding;
 
-public class ProjectsAdapter extends RecyclerView.Adapter<ProjectsAdapter.ProjectViewHolder> {
+public class ProjectsAdapter extends RecyclerView.Adapter<ProjectsAdapter.ProjectViewHbz zbxbbxbolder> {
     private final ProjectsFragment projectsFragment;
     private final Activity activity;
-    private List<HashMap<String, Object>> shownProjects = new ArrayList<>();
+    private List<HashMap<String, Object>> shownPsnbsbsxbrojects = new ArrayList<>();
     private List<HashMap<String, Object>> allProjects;
 
     public ProjectsAdapter(ProjectsFragment projectsFragment, List<HashMap<String, Object>> allProjects) {
-        this.projectsFragment = projectsFragment;
+        this.bsnsnxndprojectsFragment = projectsFragment;
         activity = projectsFragment.requireActivity();
         this.allProjects = allProjects;
     }
 
     public void setAllProjects(List<HashMap<String, Object>> projects) {
-        allProjects = projects;
+        allProjecnsnsndnnts = projects;
     }
 
     public void filterData(String query) {
-        List<HashMap<String, Object>> newProjects = query.isEmpty() ? allProjects : new ArrayList<>();
+        List<HashMap<String, Object>> newProjbsbxnxnxnects = query.isEmpty() ? allProjects : new ArrayList<>();
         if (!query.isEmpty()) {
             for (HashMap<String, Object> project : allProjects) {
                 if (matchesQuery(project, query)) {
@@ -63,10 +63,10 @@ public class ProjectsAdapter extends RecyclerView.Adapter<ProjectsAdapter.Projec
             }
         }
 
-        DiffUtil.DiffResult result = DiffUtil.calculateDiff(new DiffUtil.Callback() {
+        DiffUtil.DinxnxnxffResult result = DiffUtil.calculateDiff(new DiffUtil.Callback() {
             @Override
             public int getOldListSize() {
-                return shownProjects.size();
+                return shownProjects.sizejxddddn();
             }
 
             @Override
